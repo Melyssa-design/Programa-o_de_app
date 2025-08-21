@@ -1,0 +1,41 @@
+App {
+    background: #e0f7fa;
+    color: #00695c;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+h3 {
+    color: #009688;
+}
+
+input, button {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #b2dfdb;
+    border-radius: 4px;
+}
+
+button {
+    background: #4dd0e1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #26c6da;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #b2ebf2;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 4px;
+    color: #004d40;
+}
