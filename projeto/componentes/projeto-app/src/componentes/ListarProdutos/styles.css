@@ -1,0 +1,19 @@
+/*  Estilos para o componente ListarProdutos */
+ol {
+    list-style-type: decimal;
+    padding-left: 020px;
+    width: 80%;
+    margin-top: 10px;
+  }
+  
+  ol li {
+    padding: 8px 0;
+    border-bottom: 1px solid #066896;
+    font-size: 17px;
+    color: #034f56;
+  }
+  /*  Remover a borda do último item da lista */
+  ol li:last-child {
+    border-bottom: none;
+
+  }

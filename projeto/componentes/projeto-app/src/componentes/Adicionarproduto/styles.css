@@ -1,0 +1,33 @@
+/*  estilização do formulário de adicionar produto */
+
+  form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #045e69;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    /*  cor do botão */
+    background-color: #13d9e7;
+    /*  cor do texto */
+    color: rgb(11, 12, 12);
+    /*  remover borda padrão */
+    border: none;
+    /*  espaçamento interno */
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0bc8e0;
+  }
